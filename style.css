@@ -64,7 +64,10 @@ a {
 }
 
 .full_width_header {
-  border-bottom: 1px solid #ccc
+	border-bottom: 1px solid #ccc;
+	position: fixed;
+	width: 100%;
+	background: #fff
 }
 header {
   max-width: 1200px;
