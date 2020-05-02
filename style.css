@@ -119,3 +119,46 @@ header nav ul a {
 .staff p {
 	padding: 10px;
 }
+
+.contact {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact-image {
+	background: lightcoral;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+.contact-form {
+	display: flex;
+	padding: 0 40px;
+}
+.contact-form form h3 {
+	padding: 20px 0;
+}
+.contact-form form input {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.contact-form textarea {
+	padding: 10px;
+	width: 100%;
+}
+.contact-form button {
+	padding: 8px 50px;
+	border: none;
+	background: lightcoral;
+	margin-top: 10px;
+	color: #fff;
+}
+.contact-form button:hover {
+	background: #f4a4a4;
+	cursor: pointer;
+}
