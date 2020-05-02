@@ -42,6 +42,24 @@ table {
 	border-spacing: 0;
 }
 
+
+/****************/
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
 .full_width_header {
   border-bottom: 1px solid #ccc
 }
@@ -59,4 +77,23 @@ header nav ul {
 }
 header nav ul a {
   padding: 20px 15px;
+}
+
+.slider {
+	background: lightblue;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about {
+	max-width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.about h1 {
+	padding: 20px;
 }
