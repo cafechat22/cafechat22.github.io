@@ -55,6 +55,9 @@ h1 {
 h2 {
 	font-size: 25px;
 }
+h3 {
+	font-size: 20px;
+}
 
 a {
 	text-decoration: none;
@@ -92,8 +95,24 @@ header nav ul a {
 	text-align: center;
 	margin: 0 auto;
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 .about h1 {
 	padding: 20px;
+}
+
+.members {
+	background: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.staff {
+	background: #fff;
+	max-width: 300px;
+	margin: 40px 10px;
+}
+.staff h3,
+.staff p {
+	padding: 10px;
 }
