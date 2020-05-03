@@ -162,7 +162,21 @@ header nav ul a {
 	padding: 5px 10px;
 	max-width: 340px;
 }
-
+.channel-background {
+	background: #ccc;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.channel-rules {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.channel-rules h3 {
+	background: white;
+	padding: 20px;
+	box-shadow: 0 0 10px #999;
+	margin-bottom: 15px;
+}
 .contact-background {
 	background: #333;
 	padding-top: 30px;
