@@ -66,6 +66,7 @@ a {
 .full_width_header {
 	border-bottom: 1px solid #ccc;
 	position: fixed;
+	top: 0;
 	width: 100%;
 	background: #fff
 }
@@ -91,6 +92,7 @@ header nav ul a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 55px;
 }
 
 .about {
@@ -151,7 +153,7 @@ header nav ul a {
 .gallery {
 	display: flex;
 	flex-flow: row wrap;
-	max-width: 1200px;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 .picture {
