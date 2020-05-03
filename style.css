@@ -94,16 +94,29 @@ header nav ul a {
 }
 
 .about {
-	max-width: 900px;
-	text-align: center;
+	max-width: 1200px;
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-bottom: 60px;
+	display: flex;
+}
+.about-text {
+	flex: 1;
+}
+.about-image {
+	flex: 1;
 }
 .about h1 {
-	padding: 20px;
+	padding: 10px 0;
 }
-
+.parallax {
+	background-image: url("https://i.picsum.photos/id/1070/1920/500.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+}
 .members {
 	background: #eee;
 	display: flex;
