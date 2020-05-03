@@ -117,8 +117,24 @@ header nav ul a {
 	background-size: cover;
 	min-height: 400px;
 }
+.parallax h2 {
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	color: #fff;
+	font-weight: 800;
+}
+.members-title {
+	text-align: center;
+	padding-top: 40px;
+}
+.members-title h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
 .members {
-	background: #eee;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -132,7 +148,23 @@ header nav ul a {
 .staff p {
 	padding: 10px;
 }
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.picture {
+	flex: 1;
+	padding: 5px 10px;
+	max-width: 340px;
+}
 
+.contact-background {
+	background: #eee;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 .contact {
 	max-width: 1200px;
 	margin: 0 auto;
