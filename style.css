@@ -113,6 +113,12 @@ header nav ul a {
 .about h1 {
 	padding: 10px 0;
 }
+.cafechat-title {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 40px;
+}
+
 .parallax {
 	background-image: url("https://i.picsum.photos/id/1070/1920/500.jpg");
 	background-attachment: fixed;
