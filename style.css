@@ -105,6 +105,7 @@ header nav ul a {
 }
 .about-text {
 	flex: 1;
+	padding: 20px;
 }
 .about-image {
 	flex: 1;
