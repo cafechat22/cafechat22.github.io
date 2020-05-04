@@ -207,7 +207,7 @@ header nav ul a {
 }
 
 .contact-image {
-	background: lightcoral;
+	background: #327bb9;
 	width: 800px;
 	display: flex;
 	justify-content: center;
@@ -232,12 +232,12 @@ header nav ul a {
 button {
 	padding: 8px 50px;
 	border: none;
-	background: lightcoral;
+	background: #327bb9;
 	margin-top: 10px;
 	color: #fff;
 }
 button:hover {
-	background: #f4a4a4;
+	background: #226199;
 	cursor: pointer;
 }
 .copy-background {
