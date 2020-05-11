@@ -88,6 +88,13 @@ header nav {
   flex-flow: row wrap;
   max-width: 1200px;
   margin: 0 auto;
+  justify-content: center;
+}
+.feature-item {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
 }
 .about-us {
   text-align: center;
@@ -96,20 +103,60 @@ header nav {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.about {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
 }
 .our-services {
   text-align: center;
 }
 .service-section {
   display: flex;
+  flex-flow: row wrap;
   max-width: 1200px;
   margin: 0 auto;
+  justify-content: center;
+}
+.service {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
 }
 .parallax {
   text-align: center;
+  background: lightblue;
+  padding: 20px;
 }
 .gallery {
   text-align: center;
+}
+.section-pic {
+  display: flex;
+  flex-flow: row wrap;
+}
+.stats {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.statistic {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+}
+.picture {
+  background: lightblue;
+  padding: 20px;
+  flex: 1 1;
+  min-width: 300px;
 }
 .statistics {
   text-align: center;
@@ -117,12 +164,42 @@ header nav {
 .our-team {
   text-align: center;
 }
+.team {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.users {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+}
 .latest-news {
   text-align: center;
 }
+.news {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.news-item {
+  background: lightblue;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+}
 .contact-us {
   text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
 .footer {
   text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 10px;
 }
