@@ -67,16 +67,17 @@ button {
   padding: 10px 25px;
   border: 1px solid lightseagreen
 }
+body {
+  margin: 0;
+  margin-left: 260px;
+}
 header {
   border-bottom: 1px solid #ccc;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   background: #fff;
-}
-body {
-  margin: 0;
-  margin-left: 260px;
 }
 
 .center-header {
@@ -110,8 +111,10 @@ aside {
   top: 57px;
   left: 0;
   background: #fff;
+  border-right: 1px solid #ccc;
   width: 260px;
   height: 100vh;
+  box-shadow: 3px 0px 6px -5px #444;
 }
 aside figure {
   font-size: 2rem;
