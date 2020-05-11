@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,210 +43,86 @@ table {
 	border-spacing: 0;
 }
 
-
-/****************/
-
-body {
-	font-family: Roboto, sans-serif;
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
 
-h1 {
-	font-size: 30px;
-}
-h2 {
-	font-size: 25px;
-}
-h3 {
-	font-size: 20px;
-}
+h1 { font-size: 2.50rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 2.00rem; }
+h4 { font-size: 1.75rem; }
+h5 { font-size: 1.50rem; }
+h6 { font-size: 1.25rem; }
 
-a {
-	text-decoration: none;
-}
-
-.full_width_header {
-	border-bottom: 1px solid #ccc;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background: #fff
-	
-}
 header {
+  border-bottom: 1px solid #ccc;
+}
+
+.center-header {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+}
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
 }
 header nav {
   margin-left: auto;
 }
-header nav ul {
-  display: flex;
-}
-header nav ul a {
-	padding: 37px 20px;
-	text-transform: uppercase;
-	color: #327bb9;
-}
-.nav-active {
-	border-bottom: 3px solid #327BB9;
-}
 
 .slider {
-	background: lightblue;
-	height: 450px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 55px;
+  background: lightblue;
+}
+.slider-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.about {
-	max-width: 1200px;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 60px;
-	display: flex;
+.features {
+  text-align: center;
 }
-.about-text {
-	flex: 1;
-	padding: 20px;
+.feature-section {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.about-image {
-	flex: 1;
+.about-us {
+  text-align: center;
 }
-.about h1 {
-	padding: 10px 0;
+.two-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
-.cafechat-title {
-	text-align: center;
-	padding-top: 30px;
-	font-size: 40px;
+.our-services {
+  text-align: center;
 }
-
+.service-section {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .parallax {
-	background-image: url("https://i.picsum.photos/id/1070/1920/500.jpg");
-	background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 400px;
-}
-.parallax h2 {
-	font-size: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 400px;
-	color: #fff;
-	font-weight: 800;
-}
-.members-title {
-	text-align: center;
-	padding-top: 40px;
-}
-.members-title h2 {
-	font-size: 40px;
-	font-weight: bold;
-}
-.members {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.staff {
-	background: #fff;
-	max-width: 300px;
-	margin: 40px 10px;
-}
-.staff h3,
-.staff p {
-	padding: 10px;
+  text-align: center;
 }
 .gallery {
-	display: flex;
-	flex-flow: row wrap;
-	max-width: 1080px;
-	margin: 0 auto;
-	justify-content: center;
+  text-align: center;
 }
-.picture {
-	flex: 1;
-	padding: 5px 10px;
-	max-width: 340px;
+.statistics {
+  text-align: center;
 }
-.channel-background {
-	background: #ccc;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.our-team {
+  text-align: center;
 }
-.channel-rules {
-	max-width: 800px;
-	margin: 0 auto;
+.latest-news {
+  text-align: center;
 }
-.channel-rules h3 {
-	background: white;
-	padding: 20px;
-	box-shadow: 0 0 10px #999;
-	margin-bottom: 15px;
+.contact-us {
+  text-align: center;
 }
-.contact-background {
-	background: #333;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.contact-background h2 {
-	color: #fff
-}
-.contact {
-	max-width: 1200px;
-	margin: 0 auto;
-	display: flex;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.contact-image {
-	background: #327bb9;
-	width: 800px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-}
-.contact-form {
-	display: flex;
-	padding: 0 40px;
-}
-.contact-form form h3 {
-	padding: 20px 0;
-}
-.contact-form form input {
-	width: 100%;
-	margin-bottom: 15px;
-}
-.contact-form textarea {
-	padding: 10px;
-	width: 100%;
-}
-button {
-	padding: 8px 50px;
-	border: none;
-	background: #327bb9;
-	margin-top: 10px;
-	color: #fff;
-}
-button:hover {
-	background: #226199;
-	cursor: pointer;
-}
-.copy-background {
-	background: #222;
-	padding: 20px;
-}
-.copyright {
-	max-width: 1200px;
-	margin: 0 auto;
-	color: #fff;
+.footer {
+  text-align: center;
 }
