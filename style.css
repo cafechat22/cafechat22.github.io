@@ -223,8 +223,8 @@ header figure {
   background: lightblue;
   padding: 20px;
   flex: 1 1;
-  min-width: 300px;
   border: 1px solid #fff;
+  min-width: 300px;
 }
 .statistics {
   text-align: center;
@@ -257,6 +257,8 @@ header figure {
   flex-flow: column wrap;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .news-item {
   background: lightblue;
@@ -266,9 +268,40 @@ header figure {
 }
 .contact-us {
   text-align: center;
-  background: #444;
-  color: #fff;
+  background: #eee;
   padding: 20px;
+}
+.contact {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contact-item {
+  flex: 1;
+  text-align: left;
+}
+input[type=text] {
+  width: 45%;
+  margin-right: 2px;
+  margin-bottom: 20px;
+}
+input[type=email] {
+  width: 94%;
+  margin-bottom: 20px;
+
+}
+textarea {
+  width: 93%;
+  padding: 10px
+}
+input[type=button] {
+  border: none;
+  background: lightblue;
+  padding: 10px 25px;
+  border: 1px solid lightseagreen;
+  margin-top: 10px;
 }
 .footer {
   text-align: center;
