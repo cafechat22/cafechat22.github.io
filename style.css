@@ -58,8 +58,20 @@ h6 { font-size: 1.25rem; }
 a {
   text-decoration: none;
 }
+p {
+  line-height: 1.6em;
+}
+button {
+  border: none;
+  background: lightblue;
+  padding: 10px 25px;
+  border: 1px solid lightseagreen
+}
 header {
   border-bottom: 1px solid #ccc;
+}
+body {
+  margin: 0;
 }
 
 .center-header {
@@ -114,16 +126,39 @@ header figure {
   align-items: center;
   padding-bottom: 60px;
 }
-.feature-item {
-  background: lightblue;
+.features h2 {
   padding: 20px;
+}
+.feature-item {
   margin: 10px;
   flex: 1;
+}
+.feature-image {
+  padding: 60px 0;
+  background: lightblue;
+}
+.feature-item h5,
+.feature-item p {
+  text-align: left;
+  padding: 10px 0 0 10px;
+}
+.feature-item p {
+  font-size: .9rem;
+}
+.feature-item button {
+  display: flex;
+  margin: 10px 0 0 10px;
 }
 .about-us {
   text-align: center;
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about-us h2,
+.about-us p {
+  padding: 20px;
 }
 .two-section {
   max-width: 1200px;
@@ -240,4 +275,14 @@ header figure {
   background: #222;
   color: #fff;
   padding: 10px;
+}
+.copyright {
+  background: #111;
+  color: #fff;
+}
+.copy {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
