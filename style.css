@@ -69,6 +69,10 @@ button {
 }
 header {
   border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
 }
 body {
   margin: 0;
@@ -98,6 +102,29 @@ header figure {
   display: flex;
   align-items: center;
   font-size: 20px;
+}
+aside {
+  position: fixed;
+  top: 57px;
+  background: #fff;
+  width: 260px;
+  height: 100vh;
+}
+aside figure {
+  font-size: 2rem;
+  padding: 15px;
+}
+aside li {
+  font-size: 1.1rem;
+  margin: 15px;
+}
+.top-bar {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.menu button {
+  margin: 15px;
+  padding: 10px 50px;
 }
 
 .slider {
